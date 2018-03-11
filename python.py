@@ -48,7 +48,6 @@ a = Card(rank='b', suit='c')
 if isinstance(obj, collections.Mapping)
 
 #4
-
  
 '''当使用闭包要修改不可变的对象时，使用nolocal把对象声明为自由变量存储在object.__closure__中'''
 
