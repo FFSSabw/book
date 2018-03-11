@@ -1,9 +1,9 @@
-#1
+#第一章
 '''
 Python的数据模型
 '''
 
-#2
+#第二章
 '''
 容器序列
 list tuple collections.deque等
@@ -41,14 +41,13 @@ a = Card(rank='b', suit='c')
 实现切片的功能需要正确实现__setitem__和__getitem__将在后面讲解
 '''
 
-#3
+#第三章
 '''
 尽量使用isinstance(obj, 基类)判断类型
 '''
 if isinstance(obj, collections.Mapping)
 
-#4
- 
+#第四章
 '''当使用闭包要修改不可变的对象时，使用nolocal把对象声明为自由变量存储在object.__closure__中'''
 
 '''函数运行所用时间的装饰器'''
@@ -125,8 +124,7 @@ a_set = {0,1,2,3,4}
 wref = weakref.ref(a_set)
 
 
-#9
-
+#第九章
 #python的各种内置方法(协议)
 import math
 import numbers
@@ -853,6 +851,7 @@ def download_main(cc_list, base_url, verbose, concur_req):
 tcp协程
 '''
 index = UnicodeNameIndex()
+
 #参数分别是StreamReader, StreamWriter的实例
 #写出数据时要字节类型
 @asyncio.coroutine
